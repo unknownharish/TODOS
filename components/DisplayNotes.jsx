@@ -46,7 +46,7 @@ export default function DisplayNotes({ setvisible }) {
         getTotal()
 
         // console.log(([...Array(parseInt(totalCount / 6) )]))
-        console.log(btn)
+        // console.log(btn)
 
     }, [store.totalNotes])
 
