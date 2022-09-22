@@ -36,7 +36,7 @@ export default function ShowNotes({ setvisible, note }) {
 
 
     return (
-        <Card sx={{ minWidth: 340, maxWidth: 345, m: 1, height: '36vh' }}>
+        <Card sx={{ minWidth: {md:340,sm:'70vw'}, maxWidth: {md:345,sm:'70vw'}, m: 1, height: '36vh' }}>
             <Box sx={{ height: '3vh' }}>
 
                 {note.pinned && <PushPinOutlined />}
